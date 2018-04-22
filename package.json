@@ -5,7 +5,7 @@
   "author": "cuongnm265@gmail.com",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
+    "dev": "nuxt --spa",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
@@ -13,10 +13,15 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
-    "nuxt": "^1.0.0"
+    "element-ui": "^2.3.4",
+    "node-sass": "^4.8.3",
+    "nuxt": "^1.0.0",
+    "sass-loader": "^7.0.1",
+    "sass-resources-loader": "^1.3.3"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.1",
+    "element-theme-chalk": "^2.3.4",
     "eslint": "^4.15.0",
     "eslint-friendly-formatter": "^3.0.0",
     "eslint-loader": "^1.7.1",

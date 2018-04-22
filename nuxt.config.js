@@ -34,5 +34,24 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  /*
+  ** Global CSS
+  */
+  css: [
+    // 'element-ui/lib/.css/theme-chalresetk',
+    'element-ui/lib/theme-chalk/index.css',
+    { src: '~assets/stylesheets/settings.scss', lang: 'scss' },
+  ],
+  /*
+  ** Custom modules
+  */
+  modules: [
+  ],
+  /*
+  ** Add element-ui in our app, see plugins/element-ui.js file
+  */
+  plugins: [
+    '@/plugins/element-ui'
+  ]
 }
