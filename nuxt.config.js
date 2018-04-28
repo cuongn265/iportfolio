@@ -14,7 +14,8 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Simple app for people to create and share their CV template in an elegant way' }
+      { hid: 'description', name: 'description', content: 'Simple app for people to create and share their CV template in an elegant way' },
+      { name: 'google-site-verification', content: 'ZPYnkvghrSmaLvW_AVOzM8KxbL6KFOyt4PjTcxFFVwU' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
